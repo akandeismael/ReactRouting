@@ -6,7 +6,9 @@ import classes from './MainNavigation.module.css';
 function MainNavigation() {
   return (
     <header className={classes.header}>
-      <div className={classes.logo}>React App</div>
+      <div className={classes.logo}>
+      <Link to='/'>React App</Link>
+      </div>
       <nav>
         <ul>
           <li>
